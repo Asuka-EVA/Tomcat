@@ -1,6 +1,6 @@
 # 企业TomCat运维
 
-![image-20230413175434264](D:\图片\typora\image-20230413175434264.png)
+![image-20230413175434264](https://github.com/Asuka-EVA/Tomcat/blob/main/assets/image-20230413175434264.png?raw=true)
 
 ## 1、系统环境说明
 
@@ -224,7 +224,7 @@ tomcat  tomcat_2
 
 # TomCat反向代理集群
 
-![image-20230413183742588](D:\图片\typora\image-20230413183742588.png)
+![image-20230413183742588](https://github.com/Asuka-EVA/Tomcat/blob/main/assets/image-20230413183742588.png?raw=true)
 
 ## 1、负载均衡器说明
 
