@@ -1,8 +1,8 @@
-# 企业TomCat运维
+# Enterprise TomCat 
 
 ![image-20230413175434264](https://github.com/Asuka-EVA/Tomcat/blob/main/assets/image-20230413175434264.png?raw=true)
 
-## 1、系统环境说明
+## 1、system environment
 
 ```shell
 [root@java-tomcat1 ~]# cat /etc/redhat-release 
@@ -20,7 +20,7 @@
 
 
 
-## 2、安装jdk
+## 2、install jdk
 
 ```shell
 [root@java-tomcat1 ~]# tar xzf jdk-8u191-linux-x64.tar.gz -C /usr/local/
@@ -63,7 +63,7 @@ export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar  #
 
 
 
-## 3、安装tomcat
+## 3、install tomcat
 
 ```shell
 [root@java-tomcat1 ~]# mkdir /data/application -p
@@ -111,7 +111,7 @@ export TOMCAT_HOME=/data/application/tomcat   #指定tomcat的安装目录
 
 
 
-## 4、web站点部署
+## 4、web deploy
 
 ```shell
 [root@java-tomcat1 ~]# wget http://updates.jenkins-ci.org/download/war/2.129/jenkins.war
@@ -156,7 +156,7 @@ docs  examples  host-manager  manager  ROOT
 
 
 
-## 5、部署开源站点（jspgou商城）
+## 5、deploy jspgou
 
 ```shell
 [root@yangge ~]# yum -y install mariadb mariadb-server
@@ -189,9 +189,9 @@ source  jspgou.sql
 
 
 
-# TomCat多实例配置
+# TomCat configuration
 
-## 1、复制程序文件
+## 1、copy program files
 
 ```shell
 [root@java-tomcat1 ~]# cd /data/application/
@@ -212,7 +212,7 @@ tomcat  tomcat_2
 
 
 
-## 2、检查端口查看是否启动
+## 2、check port
 
 ```shell
 [root@java-tomcat1 application]# netstat -lntp | grep java 
@@ -222,11 +222,11 @@ tomcat  tomcat_2
 
 
 
-# TomCat反向代理集群
+# TomCat reverse proxy cluster
 
 ![image-20230413183742588](https://github.com/Asuka-EVA/Tomcat/blob/main/assets/image-20230413183742588.png?raw=true)
 
-## 1、负载均衡器说明
+## 1、load balancing
 
 ```shell
 关闭防火墙和selinux
@@ -245,7 +245,7 @@ enabled=1
 
 
 
-## 2、配置负载均衡器
+## 2、Configure load balancing
 
 ```shell
 备份原配置文件并修改
