@@ -609,8 +609,6 @@ jspgou.sql
 
 访问:[http://192.168.1.7:8080/](http://192.168.1.7:8080/)
 
-![image-20230408151538878](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20230408151538878.png)
-
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25576613/1669735930868-d2140ca6-d837-4ea5-ab13-e42bdddd6dcb.png#averageHue=%23c8c3b9&clientId=u4a23e747-7684-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=242&id=u5a67db8b&name=image.png&originHeight=303&originWidth=812&originalType=binary&ratio=1&rotation=0&showTitle=false&size=191569&status=done&style=none&taskId=ua597c220-c784-4cc1-8831-924f1610640&title=&width=649.6)
 
 做一遍：要求用mysql5.7（会遇到问题，百度解决），贴近企业环境
