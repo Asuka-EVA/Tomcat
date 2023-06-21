@@ -34,7 +34,7 @@ java的跨平台原理：
 运行过程：首先将Java文件编译成字节码（.class）文件【在所有平台生成的字节码文件都是相同的】；然后使用虚拟机jvm运行字节码文件【在不同的平台上运行字节码文件的java虚拟机是不同的，不同的平台有不同的版本】。
 JDK是Java Development Kit的缩写，JDK是Java语言的软件开发工具包(SDK)。提供了java开发、编译、运行需要的文件和环境。
 在JDK的安装目录下有一个jre目录，里面有两个文件夹bin和lib，在这里可以认为bin里的就是jvm，lib中则是jvm工作所需要的类库，而jvm和 lib合起来就称为jre。
-JRE是Java Runtime Environment的缩写，JRE的内部有一个Java虚拟机（Java Virtual Machine）以及一些标准的类别函数库（Class Library），JRE是运行java字节码文件必备的工具。
+JRE是Java Runtime Environment的缩写，JRE的内部有一个Java虚拟机（Java Virtual Machine）以及一些标准的类别函数库（Class Library），JRE是运行java字节码文件必备的工具
 ```
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/25576613/1669735627453-fbb16858-55b9-4a7d-b22b-00b196c0d7e8.png#averageHue=%23e0e0e0&clientId=u4a23e747-7684-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=405&id=u5513bf51&name=image.png&originHeight=506&originWidth=637&originalType=binary&ratio=1&rotation=0&showTitle=false&size=131084&status=done&style=none&taskId=ua64fb5eb-a6f0-43b0-8d5b-9ce7bf4130b&title=&width=509.6)
